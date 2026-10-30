@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("img/space.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  background-color: #b1c2ec;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+header, nav ul {
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+}
+
+nav ul li {
+ margin-left: 1rem;
+}
+#icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%)
+}
+#tela_login {
+  width: 80%;
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #97a7ce;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(152, 154, 160, 1);
+  padding: 20px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 9998;
+}
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid #64626f;
+  font-size: 13px;
+}
+
+.styled {
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+
+    padding: 12px;
+    font-size: 1rem;
+
+    background-color: #5a68a0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    display: block;
+    margin: 20px auto;
+}
+@media (max-width: 480px) {
+    .styled {
+        max-width: 100%;
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #475780;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+a {
+  color: #ffa97a;          
+}
+@media (max-width: 499px) {
+  #tela_login {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+

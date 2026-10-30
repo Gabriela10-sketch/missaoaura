@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.4.1/dist/p5.sound.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Missão Aura </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+   <header class="topo">
+      <nav>
+      <div id="icon">
+        <img src="img/steed_icon.png" width="150"/> 
+        </div>
+        <h1>Missão Aura</h1>
+        <h2>Futuristic Steed</h2>
+      </nav>
+      
+    </header>
+  <body>
+    <main>
+     <div id="tela_login">
+      <form id="formulario" action="javascript:void(0);" method="get">
+          <label for="nome">Informe o seu nome:</label>
+              <input type="text" id="name" name="nome" value="" placeholder="Informe o seu nome">
+        <br>
+  <div>
+    <label for="nasceu">Informe a sua data de nascimento:</label>
+    <input type="date" id="nasceu" name="nasceu" />
+  </div>
+        <br>
+    <label>1. Como você poderia contribuir para essa missão?</label>
+    <select name="p1">
+    <option value="nulo1">-----</option>
+    <option value="pilotagem">Pilotar a nave.</option>
+    <option value="medicina">Questões medicinais.</option>
+    <option value="engenharia">Conserto da nave.</option>
+    <option value="anotaçao">Anotação das descobertas.</option>
+</select>
+        <br>
+        <br>
+      
+    <label>2. Se um acidente ocorresse, o que você faria?</label>
+    <select name="p2">
+    <option value="nulo2">-----</option>
+    <option value="reforço">Buscaria reforços.</option>
+    <option value="calma">Manteria a calma e organizaria a tripulação.</option>
+    <option value="conserto">Consertaria o que estiver quebrado.</option>
+    <option value="ajuda">Ajudaria toda a tripulação.</option>
+</select>
+        <br>
+        <br>
+      
+    <label>3.Qual é o seu nível de responsabilidade?</label>
+    <select name="p3">
+    <option value="nulo3">-----</option>
+    <option value="extremo">Extremo</option>
+    <option value="acima">Acima da média</option>
+    <option value="média">Mediano</option>
+    <option value="baixo">Abaixo da média</option>
+</select>
+      <br>
+      <br>
+    <label>4.Que material você levaria para essa missão?</label>
+    <select name="p4">
+    <option value="nulo4">-----</option>
+    <option value="radar">Radar de meteoros.</option>
+    <option value="kit">Kit de primeiros socorros.</option>
+    <option value="arma">Arma espacial de emergência.</option>
+    <option value="bloco">Bloco organizador futurista.</option>
+</select>
+        <br>
+    
+<button class="styled" type="submit">
+    Descubra o seu perfil
+</button>
+      </form>
+       </div>
+    </main>
+    <footer>
+        Site feito por Gabriela Ibanez ||   Logo: <a href="https://www.vecteezy.com/"> Vecteezy.com</a> 
+    </footer>
+    <script src="sketch.js"></script>
+  </body>
+</html>
